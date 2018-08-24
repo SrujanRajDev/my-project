@@ -5,13 +5,13 @@
   <servers>
     <server>
       <id>myproject-snapshots</id>
-      <username>myapp-user</username>
-      <password>myapp-user</password>
+      <username>myproject-user</username>
+      <password>myproject-user</password>
     </server>
     <server>
       <id>myproject-releases</id>
-      <username>myapp-user</username>
-      <password>myapp-user</password>
+      <username>myproject-user</username>
+      <password>myproject-user</password>
     </server>
   </servers>
   <profiles>
