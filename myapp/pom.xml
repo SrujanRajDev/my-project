@@ -17,13 +17,13 @@
   <repository>
       <id>myproject-releases</id>
       <name>myproject-releases</name>
-      <url>http://ec2-13-233-5-52.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/myproject-releases/</url>
+      <url>http://ip-172-31-28-185.ap-south-1.compute.internal:8081/nexus/content/repositories/myproject-releases/</url>
     </repository>
 
     <snapshotRepository>
       <id>myproject-snapshots</id>
       <name>myproject-snapshots</name>
-      <url>http://ec2-13-233-5-52.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/myproject-snapshots/</url>
+      <url>http://ip-172-31-28-185.ap-south-1.compute.internal:8081/nexus/content/repositories/myproject-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>	
   
