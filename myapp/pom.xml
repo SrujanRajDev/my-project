@@ -7,12 +7,16 @@
   <description>myapp</description>
 
  <repositories> 
-  	<repository>
-    	  <id>my-repo1</id>
-      	<name>your custom repo</name>
-      	<url>http://maven.apache.org</url>
-	</repository>
-</repositories>
+   <repository>
+      <id>my-repo1</id>
+      <name>your custom repo</name>
+      <url>http://maven.apache.org</url>
+  </repository>
+  <repository>
+      <id>my-repo2</id>
+      <name>public</name>
+      <url>http://ip-172-31-28-185.ap-south-1.compute.internal:8081/nexus/content/groups/public/</url>
+</repository></repositories>
 <distributionManagement>
   <repository>
       <id>myproject-releases</id>
