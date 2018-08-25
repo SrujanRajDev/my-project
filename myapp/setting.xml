@@ -13,7 +13,18 @@ cat settings.xml
       <id>myapp-releases</id>
       <username>myapp-user</username>
       <password>myapp-user</password>
+    </server>    
+    <server>
+      <id>my-server</id>
+      <configuration>
+        <httpConfiguration>
+          <put>
+            <connectionTimeout>10000</connectionTimeout> <!-- milliseconds -->
+          </put>
+        </httpConfiguration>
+      </configuration>
     </server>
+	  
   </servers>
   <profiles>
     <profile>
