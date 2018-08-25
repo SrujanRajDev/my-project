@@ -17,7 +17,7 @@
       <name>public</name>
       <url>http://ip-172-31-28-185.ap-south-1.compute.internal:8081/nexus/content/groups/public/</url>
 </repository></repositories>
-<!--<distributionManagement>
+<distributionManagement>
   <repository>
       <id>myproject-releases</id>
       <name>myproject-releases</name>
@@ -30,5 +30,5 @@
       <url>http://ip-172-31-28-185.ap-south-1.compute.internal:8081/nexus/content/repositories/myproject-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>	
-  -->
+ 
 </project>
